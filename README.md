@@ -1,6 +1,6 @@
 Backend: http://a2acf368d3c8c4b1a85784d4b0f8d698-1028059068.us-east-1.elb.amazonaws.com/movies <br>
 Frontend: http://aff323909b774445ba45cfd9b40de869-1702661543.us-east-1.elb.amazonaws.com/
-GitHub Repository: https://github.com/HUYNHANHKH0I/Movie-picture-pipeline
+GitHub Repository: https://github.com/HUYNHANHKH0I/Movie-picture
 # Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
