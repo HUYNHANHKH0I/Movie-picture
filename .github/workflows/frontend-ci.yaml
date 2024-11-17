@@ -70,9 +70,9 @@ jobs:
       - name: Run test
         run: npm run test
 
-  build:
+  build-job:
     name: BUILD JOB
-    needs: [lint, test]
+    needs: [lint-job, int-job]
     runs-on: ubuntu-latest
     defaults:
       run:
