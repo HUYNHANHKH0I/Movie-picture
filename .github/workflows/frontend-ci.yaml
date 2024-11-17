@@ -72,7 +72,7 @@ jobs:
 
   build-job:
     name: BUILD JOB
-    needs: [lint-job, int-job]
+    needs: [lint-job, test-job]
     runs-on: ubuntu-latest
     defaults:
       run:
