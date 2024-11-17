@@ -3,6 +3,7 @@ name: Backend Continuous Integration
 on:
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
   
 env:
   PYTHON_VERSION: 3.12.1
